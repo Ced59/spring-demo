@@ -1,7 +1,10 @@
 package fr.valarep.demo.components;
 
+import org.springframework.stereotype.Component;
+
 import fr.valarep.demo.services.ServiceBonjour;
 
+@Component
 public class InjectionParConstructeurComponent {
 
     public ServiceBonjour serviceBonjour;
